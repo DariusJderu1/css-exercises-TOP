@@ -19,7 +19,21 @@ body {
 
 /*****************************/
 
+/* first way to solve the exercise */
+/* .button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
 .confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+}  */
+
+/*second way to solve it*/
+.confirm#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
