@@ -10,15 +10,18 @@ body {
 </div> */
 
 .card {
+
   width: 400px;
   background: #fff;
   margin: 16px auto;
+
+  padding: 10px;
 }
 
 .title {
 
   background: #e3f4ff;
-  padding: 7px;
+  padding: 10px;
   font-size: 20px;
 }
 
@@ -34,7 +37,11 @@ body {
 }
 
 .button-container {
+
   background: #e3f4ff;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 button {
