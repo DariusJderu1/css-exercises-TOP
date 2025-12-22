@@ -8,12 +8,31 @@ body {
 } 
 
 /*added*/
-/* .header {
+.header {
 
   display: flex;
 
   justify-content: space-between;
-} */
+}
+
+/*added*/
+.left-links, .right-links {
+
+  display: flex;
+
+  gap: 17px;
+}
+/*added*/
+.left-links {
+
+  margin-left: 17px;
+}
+/*added*/
+.right-links {
+
+  margin-right: 17px;
+}
+
 
 img {
   width: 600px;
@@ -45,4 +64,6 @@ ul {
 a {
 
   text-decoration: none;
+
+  color: rgb(102, 102, 102);
 }
