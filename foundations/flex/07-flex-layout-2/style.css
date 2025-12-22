@@ -22,6 +22,16 @@ body {
   padding-left: 15px;
 }
 
+.content {
+
+  display: flex;
+}
+
+.sidebar {
+
+  flex-shrink: 0;
+}
+
 .footer {
 
   height: 72px;
@@ -53,6 +63,7 @@ a {
 
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 /*added*/
@@ -60,7 +71,15 @@ ul {
 
   list-style-type: none;
 
+  margin: 0;
+
   /*de astea de mai jos sa mai vad daca fix asta se vrea*/
   padding-left: 15px;
   padding-top: 15px;
+}
+
+/*added*/
+li {
+
+  margin-bottom: 16px;
 }
